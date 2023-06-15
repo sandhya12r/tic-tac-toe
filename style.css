@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid gray;
+}
+
+body {
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0;
+}
+button {
+    background-color: pink;
+    color: black;
+    border: .1px solid gray;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    font-family: inherit;
+}
+
+.x {
+    color: blue;
+    font-size: 100px;
+  }
+  
+  .o {
+    color: red;
+    font-size: 100px;
+  }
+
+  .win {
+    background-color: yellow;
+  }
